@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Read Selected Text (Opera)",
+  "version": "1.0",
+  "description": "Right-click on selected text to have it read aloud.",
+  "permissions": [
+    "contextMenus",
+    "tts"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+  
+}
